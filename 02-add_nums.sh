@@ -11,11 +11,12 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
-read -p "Enter the width: " width
-read -p "Enter the height: " height
+
+read -p "Enter width: " width
+read -p "Enter height: " height
 
 # Calculate total pixels
-total=$((width * height))
+total=$((width + height))
 
 # Show the result
 echo "Total number of pixels: $total"
